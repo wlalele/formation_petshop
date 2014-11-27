@@ -21,7 +21,7 @@
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3",
-        "behat/behat": "2.4.*@stable"
+        "behat/behat": "2.5.*@stable"
     },
     "minimum-stability": "dev",
     "scripts": {
