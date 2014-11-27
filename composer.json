@@ -8,20 +8,29 @@
     },
     "require": {
         "php": ">=5.3.3",
-        "symfony/symfony": "2.5.*",
+        "symfony/symfony": "~2.4",
         "doctrine/orm": "~2.2,>=2.2.3",
         "doctrine/doctrine-bundle": "~1.2",
         "twig/extensions": "~1.0",
         "symfony/assetic-bundle": "~2.3",
         "symfony/swiftmailer-bundle": "~2.3",
         "symfony/monolog-bundle": "~2.4",
-        "sensio/distribution-bundle": "~3.0",
+        "sensio/distribution-bundle": "~2.3",
         "sensio/framework-extra-bundle": "~3.0",
-        "incenteev/composer-parameter-handler": "~2.0"
+        "sensio/generator-bundle": "~2.3",
+        "incenteev/composer-parameter-handler": "~2.0",
+        "behat/behat": "2.5.*@stable",
+        "behat/symfony2-extension": "1.1.*@dev",
+        "behat/mink":   "1.5.*@stable",
+        "behat/mink-extension":          "*",
+        "behat/mink-browserkit-driver":  "*",
+        "behat/mink-selenium2-driver":   "*",
+        "behat/mink-goutte-driver": "*",
+        "behat/mink-sahi-driver": "*",
+        "phpunit/phpunit": "3.7.*"
     },
     "require-dev": {
-        "sensio/generator-bundle": "~2.3",
-        "behat/behat": "2.5.*@stable"
+        "sensio/generator-bundle": "~2.3"
     },
     "minimum-stability": "dev",
     "scripts": {
