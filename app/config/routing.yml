@@ -1,0 +1,5 @@
+wlalele_pet_shop:
+    resource: "@WlalelePetShopBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
